@@ -1,0 +1,31 @@
+h1{
+    color: black;
+}
+*{
+    border:solid
+}
+.footer{
+    background-color:burlywood;
+    display: flex;
+    justify-content: space-between;
+}
+.header{
+    color: rgb(120, 120,100);
+}
+.footer{
+    position: relative;
+}
+.footer p{
+    position: absolute;
+    top:50%;
+    right: 50%;
+    transform: translate(-50%,-50%);
+    opacity: 0;
+}
+.footer:hover p{
+opacity: 1;
+
+}
+.footer:hover img{
+opacity: 0.33;
+}
